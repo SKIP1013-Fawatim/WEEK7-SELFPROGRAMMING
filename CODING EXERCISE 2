@@ -1,0 +1,29 @@
+package selfProgramming;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int k=20,i=20,j;
+				
+		while (k>10) {
+	        System.out.print(k + " ");
+	         k--; 
+	    }
+		
+		System.out.println();
+		
+		do {
+			System.out.print(i + " ");
+	         i--; 
+		}while(i>10);
+		
+		System.out.println();
+		
+		for(j=20;j>10;j--) {
+			System.out.print(j + " ");
+		}
+
+	}
+
+}
