@@ -1,0 +1,8 @@
+Enter an Integer, to stop enter -1: 9
+INSIDE LOOPING
+Enter an Integer,  to stop enter -1: 8
+INSIDE LOOPING
+Enter an Integer,  to stop enter -1: 0
+INSIDE LOOPING
+Enter an Integer,  to stop enter -1: -1
+Sentinel value detected. Good Bye.
