@@ -1,0 +1,25 @@
+package selfProgramming;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=1,j=1,k;
+		
+		while(i<5) {
+		System.out.println("i equal to  "+i);
+		i=i+5;
+		}
+		
+		do{
+			System.out.println("j equal to  "+j);
+			j=j+1;
+		}while(j<5);
+		
+		for(k=1;k<5;k=k+1){
+			System.out.println("k equal to  "+k);		
+		}
+
+	}
+
+}
