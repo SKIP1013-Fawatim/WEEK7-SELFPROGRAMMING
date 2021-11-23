@@ -1,0 +1,28 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int sum=0, number=1, sum1=0, num1=2;
+		
+		  while (number <= 10)
+		  {
+			sum=sum+number;
+			number = number + 5;
+			System.out.println("SUM :" + sum);
+		  }
+		  
+		  System.out.println("Good Bye");
+		  
+		  do{
+			  sum1=sum1+num1;
+			  num1 = num1 + 5;
+			  System.out.println("SUM :" +sum1);
+		  }while(num1<=10);
+
+	}
+
+}
